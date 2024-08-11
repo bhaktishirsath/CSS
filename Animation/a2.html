@@ -1,0 +1,52 @@
+ <!--@keyframe
+    animation-name
+    animation-duration
+    animation-delay
+    animation-direction
+    animation-timing-function
+    animation-fill-mode
+    animation  -->
+ 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <style>
+           div{
+               width: 100px;
+               height: 100px;
+               background-color: papayawhip;
+               animation-name: demo;
+               animation-duration: 10s ;
+               animation-delay: 2s;
+               animation-iteration-count: infinite;
+   
+           }
+           @keyframes demo{
+            0%{
+                background-color: palevioletred;
+                width: 200px;
+            }
+            25%{
+                background-color: powderblue;
+                width: 50px;
+            }
+            50%{
+                background-color: brown;
+                width: 200px;
+            }
+            100%{
+                background-color: yellow;
+                width: 50px;
+            }
+
+           }
+           
+       </style>
+    </head>
+    <body>
+       <div>hii</div>
+    </body>
+    </html>

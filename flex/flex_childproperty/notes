@@ -1,0 +1,25 @@
+<!-- 
+   order
+   flex-grow :
+       the flex-grow  specify the  how much  a flex  item will grwo
+       reletive to rest of teh flex item
+   flex-shrink :
+       the flex-shrink property  specify  how much  a  flex item  will shrink  
+       reletive  to the rest of the item
+
+   flex-basis :
+       the flex-basis :
+         it is use to specify  the initial length of teh flex item
+
+
+   flex :
+       flex-grow ,flex-shrik,flex-basis   
+
+   align-self :
+       teh align self  property  specify  the alignment  for selected 
+        item  inside  flexible  conatiner
+
+        this  is  override  teh default alignment set by the continer  align-item property
+
+
+ -->

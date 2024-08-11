@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .loader{
+            height: 70px;
+            width: 70px;
+            border: 2px dotted brown;
+            border-top: rgb(227, 110, 155) 4px dotted;
+            border-right: black solid 2px ;
+            border-bottom: blue 2px ridge;
+            border-radius: 50px;
+            animation: spin 3s linear infinite;
+            
+        }
+        
+        @keyframes spin{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+
+        img{
+            height: 100px;
+            width: 100px;
+            border: 2px black ridge;
+            animation: f 2s   infinite  linear;
+            
+
+        }
+        @keyframes f{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    <br><br>
+    <img src="/Images/flower.png" alt="">
+</body>
+</html>
